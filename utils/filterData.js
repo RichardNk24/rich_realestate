@@ -2,7 +2,7 @@ export const filterData = [
     {
         items: [
             { name: 'Buy', value: 'for-sale' },
-            { name: 'Rent', value: 'for-rent'                                                                                              },
+            { name: 'Rent', value: 'for-rent'                                                                                            },
         ],
         placeholder: 'Purpose',
         queryName: 'purpose',
