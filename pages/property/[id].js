@@ -15,7 +15,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
       <Flex paddingTop='2' alignItems='center'>
         <Box paddingRight='3' color='green.400'>{isVerified && <GoVerified />}</Box>
         <Text fontWeight='bold' fontSize='lg'>
-          CDF {price} {rentFrequency && `/${rentFrequency}`}
+          AED {price} {rentFrequency && `/${rentFrequency}`}
         </Text>
         <Spacer />
         <Avatar size='sm' src={agency?.logo?.url}></Avatar>
